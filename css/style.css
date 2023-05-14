@@ -1,0 +1,173 @@
+/*common start*/
+*{
+	margin: 0;
+	padding: 0;
+}
+body{
+	font-family: sans-serif ;
+	font-size: 16px;
+	font-weight: 400;
+	color: #102757;
+}
+/*common end*/
+/*header start*/
+header{
+
+	border-bottom: 2px solid whitesmoke;
+}
+.container{
+	margin: 0 auto;
+	width: 90%;
+	/*border:1px solid red;*/
+	overflow: hidden;
+}
+.logo{
+	float: left;
+	width: 8%;
+	
+}
+.logo img{
+width: 100%;
+}
+.menu{
+	padding-top: 15px;
+	float: right;
+	width: 55%;
+}
+.menu ul{
+float: right;
+overflow: hidden;
+}
+.menu ul li{
+	float: left;
+list-style: none;
+}
+.menu ul li a{
+	display: inline-block;
+	text-decoration: none;
+	padding: 0 25px;
+	color: #102757;
+}
+.menu ul li:last-child a {
+	padding-right: 0;
+}
+.menu ul li a:hover {
+	color: #0c66ff;
+}
+/*header end*/
+
+/*banner start*/
+.banner{
+	padding: 60px 0;
+	
+}
+.container2{
+	width: 50%;
+	margin:0 auto;
+	text-align: center; 
+	overflow: hidden;
+}
+.b_h1{
+	    margin:0;
+	    font-size: 50px;
+	    font-weight:700;
+	    line-height:65px;
+}
+.b_h1 span {
+	color: #0c66ff
+}
+.b_p {
+	margin:10px 0 15px;
+	line-height:25px;
+}
+.b_img{
+	margin:0 auto;
+}
+.b_img img{
+	width: 100%
+}
+
+/*banner end*/
+/*feature start*/
+.feature{
+	padding-bottom:70px;
+}
+.f_left{width:48%;
+text-align: right;
+float: left;
+}
+.f_left h2{
+	margin:0;
+	font-size:40px;
+	color:#f15767;
+}
+.f_left p{
+	margin: 10px 0 0;
+	font-size:16px;
+	line-height: 20px
+}
+.f_right{width:48%;
+float: right;
+text-align: left;
+}
+.f_right h1{
+	margin:0;
+	font-size:35px;
+	font-weight:700;
+}
+/*feature end*/
+/*service start*/
+.services{
+	padding-bottom:70px;
+}
+.s_service{
+	float: left;
+	width:32%;
+	/*border:1px solid;*/
+	padding:30px 20px 60px;
+	box-sizing: border-box;
+	
+}
+.s_service:first-child{
+	margin-right:2%;
+	background-color:#fdebed; 
+}
+.s_service:nth-child(2){
+	margin-right:2%;
+	background-color:#ebf9f4; 
+}
+.s_service:last-child{
+	background-color:#fff7e8; 
+}
+
+.s_img{
+
+}
+.s_img img{
+	width:100%;
+}
+.s_h2{
+	font-size:22px;
+	font-weight:700;
+}
+.s_p{
+	padding-top: 5px;
+	line-height:25px;
+}
+/*service end*/
+
+/*footer start*/
+footer{
+	padding:30px 0;
+	background-color:#0c66ff;
+}
+footer p{
+	margin:0;
+	text-align: center;
+	color:white;
+
+}
+footer p a{
+	text-decoration: none;
+	color:white;
+/*footer end*/
